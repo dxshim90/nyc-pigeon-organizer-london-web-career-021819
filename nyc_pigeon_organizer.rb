@@ -8,6 +8,6 @@ data.each do |first_level, second_level|
      end
      if !(pigeon[name][first_level])
        pigeon[name][first_level] = []
-        
+     end
     
 end
