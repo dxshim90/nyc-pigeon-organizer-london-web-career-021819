@@ -3,7 +3,7 @@ pigeon = {}
 data.each do |first_level, second_level|
   second_level.each do |third_level, forth_level|
     forth_level.each do |name|
-       pigeon[name] == nil
+      if pigeon[name] == nil
         
         
     
