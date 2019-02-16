@@ -5,7 +5,8 @@ data.each do |first_level, second_level|
     forth_level.each do |name|
      if !(pigeon[name])
        pigeon[name] = {}
-        
+     end
+     
         
     
 end
