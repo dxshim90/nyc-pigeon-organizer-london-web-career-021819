@@ -9,7 +9,7 @@ data.each do |first_level, second_level|
      if !(pigeon[name][first_level])
        pigeon[name][first_level] = []
      end
-    pigeon[name][third_level] << third_level.to_s
+    pigeon[name][first_level] << third_level.to_s
   end
 end
 end
