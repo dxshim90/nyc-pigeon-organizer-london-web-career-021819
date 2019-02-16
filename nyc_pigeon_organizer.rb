@@ -10,4 +10,5 @@ data.each do |first_level, second_level|
        pigeon[name][first_level] = []
      end
     pigeon[name][third_level] << third_level.to_s
+    
 end
